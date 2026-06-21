@@ -23,7 +23,7 @@ env:
 
 jobs:
   integration:
-    uses: ./.github/workflows/py-ci-workflow.yml
+    uses: ./.github/workflows/python-ci-workflow.yml
     permissions:
       contents: read
       checks: write
